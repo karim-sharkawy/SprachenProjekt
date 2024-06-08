@@ -1,7 +1,11 @@
-# testingstuff
+Hey there! I'm excited to share the code for my project, "Sprachen Projekt." This project generates a website featuring an interactive map complete with pointers. You can zoom in, move around, and toggle various features on the map. It encompasses every known language, including those that are extinct or endangered, along with outlines of their family origins and numerous other captivating features.
 
-Hello! Here is the code for my project titled "Sprachen Projekt". It makes a website which contains a map. This map has pointers and is interactable (zooming, moving, toggling different features). It includes every single languae known, incuding extinct and endangered ones. It has outlines of family origins and many other cool features.
+Please note: I didn't personally develop the HTML, CSS, or JS code. Credit for that goes to [@ajlkn](https://twitter.com/ajlkn), whose work I utilized. You can find all the files associated with his work in the "solid temp" folder. The result is stunning, and I'm grateful for his contribution. Moreover, the JS code for the map, 'map.js', is from [Amcharts](https://www.amcharts.com/demos/rotate-globe-to-a-selected-country/)
 
-IMPORTANT: I did NOT create the HTML, CSS, etc. code myself. This was created by ... and I simply used it, all credit goes to him! If you enter the "solid temp" folder, you can find all the files that come with download HIS work. It looks beautiful and almost all of that is because of him.
+My motivations were:
++ Develope an understanding of HTML, CSS, and JS code by experimenting and seeing what changes. Moreover, learning their syntax at a depper level
++ Develope experience parsing larger websites with more sophisticated HTML and multiple variables (including dealing with coordinate variables)
++ Learn frontend and backend development at a basic level.
++ Creating datasets and uutilizing them in the JS code (taking data from Ethnologue and displaying them on the map)
 
-Be sure to check out [html5up] (https://html5up.net/)
+Don't forget to explore [html5up](https://html5up.net/) for their fantastic templates!
