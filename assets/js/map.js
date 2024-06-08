@@ -1,25 +1,13 @@
-<!-- Styles -->
-<style>
-#chartdiv {
-  width: 100%;
-  height: 500px;
-  max-width: 100%;
-}
-</style>
+/* Imports */
+import am5index from "@amcharts/amcharts5/index";
+import am5map from "@amcharts/amcharts5/map";
+import am4geodata_worldLow from "@amcharts/amcharts4-geodata/worldLow";
+import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
-<!-- Resources -->
-<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-
-<!-- Chart code -->
-<script>
-am5.ready(function() {
-
+/* Chart code */
 // Create root element
 // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-var root = am5.Root.new("chartdiv");
+let root = am5.Root.new("cta");
 
 
 // Set themes
@@ -31,7 +19,7 @@ root.setThemes([
 
 // Create the map chart
 // https://www.amcharts.com/docs/v5/charts/map-chart/
-var chart = root.container.children.push(am5map.MapChart.new(root, {
+let chart = root.container.children.push(am5map.MapChart.new(root, {
   panX: "rotateX",
   panY: "rotateY",
   projection: am5map.geoOrthographic(),
@@ -45,7 +33,7 @@ var chart = root.container.children.push(am5map.MapChart.new(root, {
 
 // Create main polygon series for countries
 // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/
-var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+let polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
   geoJSON: am5geodata_worldLow 
 }));
 
@@ -66,7 +54,7 @@ polygonSeries.mapPolygons.template.states.create("active", {
 
 // Create series for background fill
 // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/#Background_polygon
-var backgroundSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {}));
+let backgroundSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {}));
 backgroundSeries.mapPolygons.template.setAll({
   fill: root.interfaceColors.get("alternativeBackground"),
   fillOpacity: 0.1,
@@ -76,7 +64,7 @@ backgroundSeries.data.push({
   geometry: am5map.getGeoRectangle(90, 180, -90, -180)
 });
 
-var graticuleSeries = chart.series.unshift(
+let graticuleSeries = chart.series.unshift(
   am5map.GraticuleSeries.new(root, {
     step: 10
   })
@@ -85,7 +73,7 @@ var graticuleSeries = chart.series.unshift(
 graticuleSeries.mapLines.template.set("strokeOpacity", 0.1)
 
 // Set up events
-var previousPolygon;
+let previousPolygon;
 
 polygonSeries.mapPolygons.template.on("active", function(active, target) {
   if (previousPolygon && previousPolygon != target) {
@@ -98,10 +86,10 @@ polygonSeries.mapPolygons.template.on("active", function(active, target) {
 });
 
 function selectCountry(id) {
-  var dataItem = polygonSeries.getDataItemById(id);
-  var target = dataItem.get("mapPolygon");
+  let dataItem = polygonSeries.getDataItemById(id);
+  let target = dataItem.get("mapPolygon");
   if (target) {
-    var centroid = target.geoCentroid();
+    let centroid = target.geoCentroid();
     if (centroid) {
       chart.animate({ key: "rotationX", to: -centroid.longitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
       chart.animate({ key: "rotationY", to: -centroid.latitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
@@ -117,9 +105,3 @@ function selectCountry(id) {
 
 // Make stuff animate on load
 chart.appear(1000, 100);
-
-}); // end am5.ready()
-</script>
-
-<!-- HTML -->
-<div id="chartdiv"></div>
