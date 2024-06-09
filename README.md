@@ -17,4 +17,6 @@ Improvements I still ned to make:
 6. **Parallel Processing**: Utilize parallel processing techniques, such as multi-threading or multiprocessing, to perform tasks concurrently and make better use of available system resources.
 7. **Code Refactoring**: Refactor your code to eliminate redundancy and improve readability. Look for opportunities to modularize repetitive tasks into functions or classes.
 
-   Overall, this is to enhance efficiency, you can make some optimizations and improvements to your code. Here are some suggestions:
+Overall, this is to enhance efficiency, you can make some optimizations and improvements to your code. Here are some suggestions:
+
+Thanks to [Rafee Adnan](https://www.linkedin.com/in/radnaan/) for helping with the JS code!
