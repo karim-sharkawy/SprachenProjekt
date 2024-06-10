@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Map - Map of Every Language</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <nav id="nav">
+            <ul>
+                <li><a href="introduction.html">Back to Introduction</a></li>
+            </ul>
+        </nav>
+        <!-- Header, Nav, Main, and Footer for the map page -->
+        <!-- Add your map section content here -->
+        <!-- Map Container -->
+        <section id="cta" class="main special">
+            <header class="major">
+                <h2>The Map</h2>
+                <p>Feel free to contact me for any suggestions!<br />
+                    I'm hoping to be improving over the next couple of weeks.</p>
+            </header>
+            <!-- Map Container -->
+            <div id="chartdiv" class="map-container" style="width: 100%; height: 500px;"></div> <!-- Ensure to set height and width for the map container -->
+        </section>
+                      
+        <!-- Scripts -->
+        <!-- Load the amCharts library -->
+        <script type="module" src="https://cdn.amcharts.com/lib/5/index.js"></script>
+        <script type="module" src="https://cdn.amcharts.com/lib/5/map.js"></script>
+        <script type="module" src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+        <script type="module" src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+        <!-- Load your map.js script -->
+        <script src="assets/js/map.js"></script>
+        <!-- Styles -->
+<style>
+    #chartdiv {
+      width: 100%;
+      height: 500px;
+    }
+    </style>
+    
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    
+    <!-- Chart code -->
+    <script>
+    am5.ready(function() {
+    
+    // Create root element
+    // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+    var root = am5.Root.new("chartdiv");
+    
+    
+    // Set themes
+    // https://www.amcharts.com/docs/v5/concepts/themes/
+    root.setThemes([
+      am5themes_Animated.new(root)
+    ]);
+    
+    
+    // Create the map chart
+    // https://www.amcharts.com/docs/v5/charts/map-chart/
+    var chart = root.container.children.push(am5map.MapChart.new(root, {
+      panX: "translateX",
+      panY: "translateY",
+      projection: am5map.geoMercator()
+    }));
+    
+    
+    // Create main polygon series for countries
+    // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/
+    var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+      geoJSON: am5geodata_worldLow,
+      exclude: ["AQ"]
+    }));
+    
+    polygonSeries.mapPolygons.template.setAll({
+      tooltipText: "{name}",
+      toggleKey: "active",
+      interactive: true
+    });
+    
+    polygonSeries.mapPolygons.template.states.create("hover", {
+      fill: root.interfaceColors.get("primaryButtonHover")
+    });
+    
+    polygonSeries.mapPolygons.template.states.create("active", {
+      fill: root.interfaceColors.get("primaryButtonHover")
+    });
+    
+    var previousPolygon;
+    
+    polygonSeries.mapPolygons.template.on("active", function (active, target) {
+      if (previousPolygon && previousPolygon != target) {
+        previousPolygon.set("active", false);
+      }
+      if (target.get("active")) {
+        polygonSeries.zoomToDataItem(target.dataItem );
+      }
+      else {
+        chart.goHome();
+      }
+      previousPolygon = target;
+    });
+    
+    
+    // Add zoom control
+    // https://www.amcharts.com/docs/v5/charts/map-chart/map-pan-zoom/#Zoom_control
+    var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+    zoomControl.homeButton.set("visible", true);
+    
+    // Set clicking on "water" to zoom out
+    chart.chartContainer.get("background").events.on("click", function () {
+      chart.goHome();
+    })
+    
+    
+    // Make stuff animate on load
+    chart.appear(1000, 100);
+    
+    }); // end am5.ready()
+    </script>
+    
+    <!-- HTML -->
+    <div id="chartdiv"></div>
+    amCharts
+    </div>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
