@@ -3217,16 +3217,20 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
-		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		top: 0;
+		position: sticky;
+		z-index: 1000;
+		max-width: calc(100% + 10em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #ffffff;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
+		box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3); /* Add shadow here */
+		
 	}
+	
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3301,11 +3305,11 @@ input, select, textarea {
 						box-shadow: none;
 					}
 
-		#nav.alt {
+		/* #nav.alt {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+			background-color: #ffffff;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
@@ -3317,7 +3321,7 @@ input, select, textarea {
 
 				#nav.alt ul li a {
 					font-size: 0.9em;
-				}
+				} */
 
 		@media screen and (max-width: 736px) {
 
