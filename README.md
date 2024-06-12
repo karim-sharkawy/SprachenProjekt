@@ -16,7 +16,7 @@ My motivations were:
   - *Develop charts and graphs (using D3.js) to display metrics like number of speakers and endangerment status.*
 
 2. Linking to Learning Resources
-- **Resource Integration:** *Incorporate links to external learning resources for each language. This could include online courses, textbooks, apps, and websites.*
-- **Information Pages:** *Create pages or modals that display additional information about each language, including learning resources, history, and usage.*
+- *Incorporate links to external learning resources for each language. This could include online courses, textbooks, apps, and websites.*
+- *Create pages or modals that display additional information about each language, including learning resources, history, and usage.*
 - *Links to more information and language learning resources.*
 - *Include search functionality to find specific languages.*
