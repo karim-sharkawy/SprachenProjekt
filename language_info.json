@@ -1,0 +1,422 @@
+{
+    "A-Pucikwar": {
+        "iso_code": "apq",
+        "coordinates": {
+            "latitude": "92.7480",
+            "longitude": "12.2179"
+        },
+        "population": "None",
+        "language_status": "Extinct",
+        "family": "Andamanese"
+    },
+    "A’ou": {
+        "iso_code": "aou",
+        "coordinates": {
+            "latitude": "105.8528",
+            "longitude": "26.7469"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Kra-Dai"
+    },
+    "Aari": {
+        "iso_code": "aiw",
+        "coordinates": {
+            "latitude": "36.5591",
+            "longitude": "5.9341"
+        },
+        "population": "10K to 1M",
+        "language_status": "Institutional",
+        "family": "Afro-Asiatic"
+    },
+    "Aasáx": {
+        "iso_code": "aas",
+        "coordinates": {
+            "latitude": "36.8687",
+            "longitude": "-4.0022"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Afro-Asiatic"
+    },
+    "Abadi": {
+        "iso_code": "kbt",
+        "coordinates": {
+            "latitude": "146.8967",
+            "longitude": "-9.0200"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Austronesian"
+    },
+    "Abai Sungai": {
+        "iso_code": "abf",
+        "coordinates": {
+            "latitude": "118.3779",
+            "longitude": "5.6857"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Austronesian"
+    },
+    "Abanglekuo": {
+        "iso_code": "bzy",
+        "coordinates": {
+            "latitude": "9.2415",
+            "longitude": "6.6125"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abanyom": {
+        "iso_code": "abm",
+        "coordinates": {
+            "latitude": "8.6395",
+            "longitude": "6.2460"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abau": {
+        "iso_code": "aau",
+        "coordinates": {
+            "latitude": "141.1713",
+            "longitude": "-4.0700"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Sepik"
+    },
+    "Abaza": {
+        "iso_code": "abq",
+        "coordinates": {
+            "latitude": "41.8412",
+            "longitude": "44.0444"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Abkhaz-Adyghe"
+    },
+    "Abé": {
+        "iso_code": "aba",
+        "coordinates": {
+            "latitude": "-4.2749",
+            "longitude": "5.9065"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abenaki, Eastern": {
+        "iso_code": "aaq",
+        "coordinates": {
+            "latitude": "-68.7328",
+            "longitude": "44.9423"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Algic"
+    },
+    "Abenaki, Western": {
+        "iso_code": "abe",
+        "coordinates": {
+            "latitude": "-72.6183",
+            "longitude": "46.1883"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Algic"
+    },
+    "Abidji": {
+        "iso_code": "abi",
+        "coordinates": {
+            "latitude": "-4.5988",
+            "longitude": "5.6430"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abinomn": {
+        "iso_code": "bsa",
+        "coordinates": {
+            "latitude": "138.8914",
+            "longitude": "-2.8484"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Language isolate"
+    },
+    "Abipon": {
+        "iso_code": "axb",
+        "coordinates": {
+            "latitude": "-61.2235",
+            "longitude": "-29.2904"
+        },
+        "population": "None",
+        "language_status": "Extinct",
+        "family": "Guaykuruan"
+    },
+    "Abishi": {
+        "iso_code": "pcn",
+        "coordinates": {
+            "latitude": "8.6003",
+            "longitude": "10.0405"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abkhaz": {
+        "iso_code": "abk",
+        "coordinates": {
+            "latitude": "41.5652",
+            "longitude": "42.8268"
+        },
+        "population": "10K to 1M",
+        "language_status": "Institutional",
+        "family": "Abkhaz-Adyghe"
+    },
+    "Abom": {
+        "iso_code": "aob",
+        "coordinates": {
+            "latitude": "142.9264",
+            "longitude": "-8.4253"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Trans-New Guinea"
+    },
+    "Abon": {
+        "iso_code": "abo",
+        "coordinates": {
+            "latitude": "10.8077",
+            "longitude": "6.9886"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Niger-Congo"
+    },
+    "Abron": {
+        "iso_code": "abr",
+        "coordinates": {
+            "latitude": "-1.9740",
+            "longitude": "7.6857"
+        },
+        "population": "1M to 1B",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abu": {
+        "iso_code": "ado",
+        "coordinates": {
+            "latitude": "144.4888",
+            "longitude": "-4.3091"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Ramu-Lower Sepik"
+    },
+    "Abu’": {
+        "iso_code": "aah",
+        "coordinates": {
+            "latitude": "142.9650",
+            "longitude": "-3.4341"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Torricelli"
+    },
+    "Abua": {
+        "iso_code": "abn",
+        "coordinates": {
+            "latitude": "6.6288",
+            "longitude": "4.8184"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abui": {
+        "iso_code": "abz",
+        "coordinates": {
+            "latitude": "124.5938",
+            "longitude": "-8.3108"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Trans-New Guinea"
+    },
+    "Abun": {
+        "iso_code": "kgr",
+        "coordinates": {
+            "latitude": "132.3772",
+            "longitude": "-0.6298"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Language isolate"
+    },
+    "Abure": {
+        "iso_code": "abu",
+        "coordinates": {
+            "latitude": "-3.5329",
+            "longitude": "5.3288"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Abureni": {
+        "iso_code": "mgj",
+        "coordinates": {
+            "latitude": "6.5062",
+            "longitude": "4.6245"
+        },
+        "population": "None",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Aceh": {
+        "iso_code": "ace",
+        "coordinates": {
+            "latitude": "95.8965",
+            "longitude": "4.5112"
+        },
+        "population": "1M to 1B",
+        "language_status": "Endangered",
+        "family": "Austronesian"
+    },
+    "Achagua": {
+        "iso_code": "aca",
+        "coordinates": {
+            "latitude": "-72.1966",
+            "longitude": "4.3739"
+        },
+        "population": "Less than 10K",
+        "language_status": "Endangered",
+        "family": "Maipurean"
+    },
+    "Achang": {
+        "iso_code": "acn",
+        "coordinates": {
+            "latitude": "98.7253",
+            "longitude": "24.6798"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Sino-Tibetan"
+    },
+    "Ache": {
+        "iso_code": "yif",
+        "coordinates": {
+            "latitude": "101.9742",
+            "longitude": "24.6831"
+        },
+        "population": "10K to 1M",
+        "language_status": "Endangered",
+        "family": "Sino-Tibetan"
+    },
+    "Aché": {
+        "iso_code": "guq",
+        "coordinates": {
+            "latitude": "-56.4554",
+            "longitude": "-25.5725"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Tupian"
+    },
+    "Acheron": {
+        "iso_code": "acz",
+        "coordinates": {
+            "latitude": "30.1946",
+            "longitude": "10.8930"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Achi": {
+        "iso_code": "acr",
+        "coordinates": {
+            "latitude": "-90.4877",
+            "longitude": "15.1168"
+        },
+        "population": "10K to 1M",
+        "language_status": "Endangered",
+        "family": "Mayan"
+    },
+    "Acholi": {
+        "iso_code": "ach",
+        "coordinates": {
+            "latitude": "32.5765",
+            "longitude": "3.0820"
+        },
+        "population": "1M to 1B",
+        "language_status": "Institutional",
+        "family": "Nilo-Saharan"
+    },
+    "Achterhoeks": {
+        "iso_code": "act",
+        "coordinates": {
+            "latitude": "6.4584",
+            "longitude": "52.0486"
+        },
+        "population": "10K to 1M",
+        "language_status": "Stable",
+        "family": "Indo-European"
+    },
+    "Achuar-Shiwiar": {
+        "iso_code": "acu",
+        "coordinates": {
+            "latitude": "-77.3422",
+            "longitude": "-2.7442"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Jivaroan"
+    },
+    "Achumawi": {
+        "iso_code": "acv",
+        "coordinates": {
+            "latitude": "-121.1838",
+            "longitude": "41.1050"
+        },
+        "population": "None",
+        "language_status": "Endangered",
+        "family": "Palaihnihan"
+    },
+    "Acipa, Eastern": {
+        "iso_code": "acp",
+        "coordinates": {
+            "latitude": "5.9896",
+            "longitude": "10.6699"
+        },
+        "population": "Less than 10K",
+        "language_status": "Stable",
+        "family": "Niger-Congo"
+    },
+    "Acroá": {
+        "iso_code": "acs",
+        "coordinates": {
+            "latitude": "-45.9888",
+            "longitude": "-13.1116"
+        },
+        "population": "None",
+        "language_status": "Extinct",
+        "family": "Jean"
+    },
+    "Adai": {
+        "iso_code": "xad",
+        "coordinates": {
+            "latitude": "-92.1912",
+            "longitude": "31.6543"
+        },
+        "population": "None",
+        "language_status": "Extinct",
+        "family": "Unclassified"
+    }
+}
