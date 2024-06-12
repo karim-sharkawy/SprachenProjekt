@@ -1,0 +1,4222 @@
+{
+    "A-Pucikwar": {
+        "iso_code": "apq",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "A\u2019ou": {
+        "iso_code": "aou",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aari": {
+        "iso_code": "aiw",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Aas\u00e1x": {
+        "iso_code": "aas",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Abadi": {
+        "iso_code": "kbt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Abai Sungai": {
+        "iso_code": "abf",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Abanglekuo": {
+        "iso_code": "bzy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abanyom": {
+        "iso_code": "abm",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abau": {
+        "iso_code": "aau",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Abaza": {
+        "iso_code": "abq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ab\u00e9": {
+        "iso_code": "aba",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abenaki, Eastern": {
+        "iso_code": "aaq",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Abenaki, Western": {
+        "iso_code": "abe",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Abidji": {
+        "iso_code": "abi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abinomn": {
+        "iso_code": "bsa",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Abipon": {
+        "iso_code": "axb",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Abishi": {
+        "iso_code": "pcn",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Abkhaz": {
+        "iso_code": "abk",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Abom": {
+        "iso_code": "aob",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Abon": {
+        "iso_code": "abo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Abron": {
+        "iso_code": "abr",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Abu": {
+        "iso_code": "ado",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Abu\u2019": {
+        "iso_code": "aah",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Abua": {
+        "iso_code": "abn",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abui": {
+        "iso_code": "abz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abun": {
+        "iso_code": "kgr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Abure": {
+        "iso_code": "abu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Abureni": {
+        "iso_code": "mgj",
+        "population": "None",
+        "language_status": "Stable"
+    },
+    "Aceh": {
+        "iso_code": "ace",
+        "population": "1M to 1B",
+        "language_status": "Endangered"
+    },
+    "Achagua": {
+        "iso_code": "aca",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Achang": {
+        "iso_code": "acn",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ache": {
+        "iso_code": "yif",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ach\u00e9": {
+        "iso_code": "guq",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Acheron": {
+        "iso_code": "acz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Achi": {
+        "iso_code": "acr",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Acholi": {
+        "iso_code": "ach",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Achterhoeks": {
+        "iso_code": "act",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Achuar-Shiwiar": {
+        "iso_code": "acu",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Achumawi": {
+        "iso_code": "acv",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Acipa, Eastern": {
+        "iso_code": "acp",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Acro\u00e1": {
+        "iso_code": "acs",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Adai": {
+        "iso_code": "xad",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Adamorobe Sign Language": {
+        "iso_code": "ads",
+        "population": "None",
+        "language_status": "Stable"
+    },
+    "Adang": {
+        "iso_code": "adn",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Adangbe": {
+        "iso_code": "adq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Adara": {
+        "iso_code": "kad",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adasen": {
+        "iso_code": "tiu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Adele": {
+        "iso_code": "ade",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adi": {
+        "iso_code": "adi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adi, Galo": {
+        "iso_code": "adl",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adioukrou": {
+        "iso_code": "adj",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adithinngithigh": {
+        "iso_code": "dth",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Adnyamathanha": {
+        "iso_code": "adt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Adonara": {
+        "iso_code": "adr",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aduge": {
+        "iso_code": "adu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Adyghe": {
+        "iso_code": "ady",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Adzera": {
+        "iso_code": "adz",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Aeka": {
+        "iso_code": "aez",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aekyom": {
+        "iso_code": "awi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aer": {
+        "iso_code": "aeq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Afade": {
+        "iso_code": "aal",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Afar": {
+        "iso_code": "aar",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Afghan Sign Language": {
+        "iso_code": "afg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Afitti": {
+        "iso_code": "aft",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Afrikaans": {
+        "iso_code": "afr",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Afro-Seminole Creole": {
+        "iso_code": "afs",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Agarabi": {
+        "iso_code": "agd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agariya": {
+        "iso_code": "agi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agatu": {
+        "iso_code": "agc",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agavotaguerra": {
+        "iso_code": "avo",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aghem": {
+        "iso_code": "agq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aghu": {
+        "iso_code": "ahh",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aghu-Tharnggala": {
+        "iso_code": "gtu",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aghul": {
+        "iso_code": "agx",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agi": {
+        "iso_code": "aif",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Agob": {
+        "iso_code": "kit",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Agta, Casiguran Dumagat": {
+        "iso_code": "dgc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Agta, Central Cagayan": {
+        "iso_code": "agt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Agta, Dicamay": {
+        "iso_code": "duy",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Agta, Dupaninan": {
+        "iso_code": "duo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Agta, Katubung": {
+        "iso_code": "agk",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Agta, Mt. Iraya": {
+        "iso_code": "atl",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Agta, Mt. Iriga": {
+        "iso_code": "agz",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Agta, Pahanan": {
+        "iso_code": "apf",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Agta, Umiray Dumaget": {
+        "iso_code": "due",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Agta, Villa Viciosa": {
+        "iso_code": "dyg",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aguano": {
+        "iso_code": "aga",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aguna": {
+        "iso_code": "aug",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agutaynen": {
+        "iso_code": "agn",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Agwagwune": {
+        "iso_code": "yay",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ahanta": {
+        "iso_code": "aha",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aheu": {
+        "iso_code": "thm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ahirani": {
+        "iso_code": "ahr",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Ahom": {
+        "iso_code": "aho",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Ahtena": {
+        "iso_code": "aht",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Ahwai": {
+        "iso_code": "nfd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ai-Cham": {
+        "iso_code": "aih",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aighon": {
+        "iso_code": "aix",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aikan\u00e3": {
+        "iso_code": "tba",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aiklep": {
+        "iso_code": "mwg",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aimaq": {
+        "iso_code": "aiq",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Aimol": {
+        "iso_code": "aim",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ainbai": {
+        "iso_code": "aic",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ainu": {
+        "iso_code": "ain",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aiome": {
+        "iso_code": "aki",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Airoran": {
+        "iso_code": "air",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aisi": {
+        "iso_code": "mmq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aiton": {
+        "iso_code": "aio",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aizi, Aproumu": {
+        "iso_code": "ahp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aizi, Mobumrin": {
+        "iso_code": "ahm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aizi, Tiagbamrin": {
+        "iso_code": "ahi",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aja": {
+        "iso_code": "ajg",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Ajawa": {
+        "iso_code": "ajw",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aji\u00eb": {
+        "iso_code": "aji",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ajiri": {
+        "iso_code": "afo",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ajiya": {
+        "iso_code": "idc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ajumbu": {
+        "iso_code": "muc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ajy\u00edninka Apurucayali": {
+        "iso_code": "cpc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ak": {
+        "iso_code": "akq",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aka": {
+        "iso_code": "soh",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aka-Bea": {
+        "iso_code": "abj",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aka-Bo": {
+        "iso_code": "akm",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aka-Cari": {
+        "iso_code": "aci",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aka-Jeru": {
+        "iso_code": "akj",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aka-Kede": {
+        "iso_code": "akx",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aka-Kol": {
+        "iso_code": "aky",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aka-Kora": {
+        "iso_code": "ack",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Akan": {
+        "iso_code": "aka",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Akar-Bale": {
+        "iso_code": "acl",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Akaselem": {
+        "iso_code": "aks",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akateko": {
+        "iso_code": "knj",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akawaio": {
+        "iso_code": "ake",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Akebu": {
+        "iso_code": "keu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akei": {
+        "iso_code": "tsr",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akeu": {
+        "iso_code": "aeu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akha": {
+        "iso_code": "ahk",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Akhvakh": {
+        "iso_code": "akv",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aklanon": {
+        "iso_code": "akl",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Akolet": {
+        "iso_code": "akt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Akoose": {
+        "iso_code": "bss",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akoye": {
+        "iso_code": "miw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Akpes": {
+        "iso_code": "ibe",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akukem": {
+        "iso_code": "spm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Akuku": {
+        "iso_code": "ayk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akum": {
+        "iso_code": "aku",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Akuntsu": {
+        "iso_code": "aqz",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Akurio": {
+        "iso_code": "ako",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Akwa": {
+        "iso_code": "akw",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Akweya": {
+        "iso_code": "akf",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Akye": {
+        "iso_code": "aik",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Al-Sayyid Bedouin Sign Language": {
+        "iso_code": "syy",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Alaba-K\u2019abeena": {
+        "iso_code": "alw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Alabama": {
+        "iso_code": "akz",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Alago": {
+        "iso_code": "ala",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Alagwa": {
+        "iso_code": "wbj",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Alak": {
+        "iso_code": "alk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Alamblak": {
+        "iso_code": "amp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Alangan": {
+        "iso_code": "alj",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Alapmunte": {
+        "iso_code": "apv",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Alawa": {
+        "iso_code": "alh",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Albanian": {
+        "iso_code": "sqi",
+        "language_status": "Unknown"
+    },
+    "Albanian Sign Language": {
+        "iso_code": "sqk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Albanian, Arb\u00ebresh\u00eb": {
+        "iso_code": "aae",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Albanian, Arvanitika": {
+        "iso_code": "aat",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Albanian, Gheg": {
+        "iso_code": "aln",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Albanian, Tosk": {
+        "iso_code": "als",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Albarradas Sign Language": {
+        "iso_code": "lsc",
+        "population": "None",
+        "language_status": "Stable"
+    },
+    "Ale": {
+        "iso_code": "gwd",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Alekano": {
+        "iso_code": "gah",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Aleut": {
+        "iso_code": "ale",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aleut, Mednyj": {
+        "iso_code": "mud",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Algerian Jewish Sign Language": {
+        "iso_code": "ajs",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Algerian Sign Language": {
+        "iso_code": "asp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Algonquin": {
+        "iso_code": "alq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ali": {
+        "iso_code": "aiy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Alladian": {
+        "iso_code": "ald",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Allar": {
+        "iso_code": "all",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Alngith": {
+        "iso_code": "aid",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Alor": {
+        "iso_code": "aol",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Alsea": {
+        "iso_code": "aes",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Alta, Northern": {
+        "iso_code": "aqn",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Alta, Southern": {
+        "iso_code": "agy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Altai, Northern": {
+        "iso_code": "atv",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Altai, Southern": {
+        "iso_code": "alt",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Alugu": {
+        "iso_code": "aub",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Alune": {
+        "iso_code": "alp",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Aluo": {
+        "iso_code": "yna",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Alur": {
+        "iso_code": "alz",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Alutor": {
+        "iso_code": "alr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Alviri-Vidari": {
+        "iso_code": "avd",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Alyawarr": {
+        "iso_code": "aly",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ama": {
+        "iso_code": "nyi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Amahai": {
+        "iso_code": "amq",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amahuaca": {
+        "iso_code": "amc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amaimon": {
+        "iso_code": "ali",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amako": {
+        "iso_code": "koz",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amal": {
+        "iso_code": "aad",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amam": {
+        "iso_code": "wer",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amami Koniya Sign Language": {
+        "iso_code": "jks",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amami-Oshima, Northern": {
+        "iso_code": "ryn",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Amami-Oshima, Southern": {
+        "iso_code": "ams",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amanab": {
+        "iso_code": "amn",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amanay\u00e9": {
+        "iso_code": "ama",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amara": {
+        "iso_code": "aie",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amarakaeri": {
+        "iso_code": "amr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amarasi": {
+        "iso_code": "aaz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Amba": {
+        "iso_code": "utp",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambae, East": {
+        "iso_code": "omb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambae, West": {
+        "iso_code": "nnd",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambai": {
+        "iso_code": "amk",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ambakich": {
+        "iso_code": "aew",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambel": {
+        "iso_code": "wgo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambelau": {
+        "iso_code": "amv",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambele": {
+        "iso_code": "ael",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amblong": {
+        "iso_code": "alm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambo": {
+        "iso_code": "amb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambrak": {
+        "iso_code": "aag",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ambrym, North": {
+        "iso_code": "mmg",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambrym, Southeast": {
+        "iso_code": "tvk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambul": {
+        "iso_code": "apo",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ambulas": {
+        "iso_code": "abt",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Amdang": {
+        "iso_code": "amj",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Amele": {
+        "iso_code": "aey",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "American Sign Language": {
+        "iso_code": "ase",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Amharic": {
+        "iso_code": "amh",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Ami": {
+        "iso_code": "amy",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amio-Gelimi": {
+        "iso_code": "let",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amis": {
+        "iso_code": "ami",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Amo": {
+        "iso_code": "amo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ampanang": {
+        "iso_code": "apg",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Amri Karbi": {
+        "iso_code": "ajz",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Amto": {
+        "iso_code": "amt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Amundava": {
+        "iso_code": "adw",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amurdak": {
+        "iso_code": "amg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Amuzgo, Guerrero": {
+        "iso_code": "amu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Amuzgo, Ipalapa": {
+        "iso_code": "azm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Amuzgo, San Pedro Amuzgos": {
+        "iso_code": "azg",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anaang": {
+        "iso_code": "anw",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Anakalangu": {
+        "iso_code": "akg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Anal": {
+        "iso_code": "anm",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Anam": {
+        "iso_code": "pda",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Anamb\u00e9": {
+        "iso_code": "aan",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Anamuxra": {
+        "iso_code": "imi",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anasi": {
+        "iso_code": "bpo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Andaandi": {
+        "iso_code": "dgl",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Andai": {
+        "iso_code": "afd",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Andajin": {
+        "iso_code": "ajn",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Andaman Hindi Creole": {
+        "iso_code": "hca",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Andaqui": {
+        "iso_code": "ana",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Andarum": {
+        "iso_code": "aod",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Andegerebinha": {
+        "iso_code": "adg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Andh": {
+        "iso_code": "anr",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Andi": {
+        "iso_code": "ani",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Andio": {
+        "iso_code": "bzb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Andoa": {
+        "iso_code": "anb",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Andoque": {
+        "iso_code": "ano",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Andra-Hus": {
+        "iso_code": "anx",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aneityum": {
+        "iso_code": "aty",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anem": {
+        "iso_code": "anz",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aneme Wake": {
+        "iso_code": "aby",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anfillo": {
+        "iso_code": "myo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Angaataha": {
+        "iso_code": "agm",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Angait\u00e9": {
+        "iso_code": "aqt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Angal": {
+        "iso_code": "age",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Angal Enen": {
+        "iso_code": "aoe",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Angal Heneng": {
+        "iso_code": "akh",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Angika": {
+        "iso_code": "anp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Angkamuthi": {
+        "iso_code": "avm",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Angloromani": {
+        "iso_code": "rme",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Angolar": {
+        "iso_code": "aoa",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Angor": {
+        "iso_code": "agg",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Angoram": {
+        "iso_code": "aog",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anguthimri": {
+        "iso_code": "awg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Anii": {
+        "iso_code": "blo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Animere": {
+        "iso_code": "anf",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Anindilyakwa": {
+        "iso_code": "aoi",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aninka": {
+        "iso_code": "aqk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anjam": {
+        "iso_code": "boj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ankave": {
+        "iso_code": "aak",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anmatyerr": {
+        "iso_code": "amx",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anong": {
+        "iso_code": "nun",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Anor": {
+        "iso_code": "anj",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Anserma": {
+        "iso_code": "ans",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Ansus": {
+        "iso_code": "and",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Antikarinya": {
+        "iso_code": "ant",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Anuak": {
+        "iso_code": "anu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Anufo": {
+        "iso_code": "cko",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Anuki": {
+        "iso_code": "aui",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Anus": {
+        "iso_code": "auq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Anuta": {
+        "iso_code": "aud",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Anyin": {
+        "iso_code": "any",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Anyin Morofo": {
+        "iso_code": "mtb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aoheng": {
+        "iso_code": "pni",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aore": {
+        "iso_code": "aor",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Ap Ma": {
+        "iso_code": "kbx",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Apache, Jicarilla": {
+        "iso_code": "apj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Apache, Kiowa": {
+        "iso_code": "apk",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Apache, Lipan": {
+        "iso_code": "apl",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Apache, Mescalero-Chiricahua": {
+        "iso_code": "apm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Apache, Western": {
+        "iso_code": "apw",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Apal": {
+        "iso_code": "ena",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Apalachee": {
+        "iso_code": "xap",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Apala\u00ed": {
+        "iso_code": "apy",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Apatani": {
+        "iso_code": "apt",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Apiak\u00e1": {
+        "iso_code": "api",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Apinag\u00e9": {
+        "iso_code": "apn",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Apma": {
+        "iso_code": "app",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Apurin\u00e3": {
+        "iso_code": "apu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aputai": {
+        "iso_code": "apx",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arabana": {
+        "iso_code": "ard",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arabela": {
+        "iso_code": "arl",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arabic": {
+        "iso_code": "ara",
+        "language_status": "Unknown"
+    },
+    "Arabic, Algerian": {
+        "iso_code": "arq",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Algerian Saharan": {
+        "iso_code": "aao",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Arabic, Baharna": {
+        "iso_code": "abv",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Arabic, Chadian": {
+        "iso_code": "shu",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Cypriot": {
+        "iso_code": "acy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arabic, Dhofari": {
+        "iso_code": "adf",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Arabic, Eastern Egyptian Bedawi": {
+        "iso_code": "avl",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Egyptian": {
+        "iso_code": "arz",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Gulf": {
+        "iso_code": "afb",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Hadrami": {
+        "iso_code": "ayh",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Hijazi": {
+        "iso_code": "acw",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Juba": {
+        "iso_code": "pga",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Judeo-Iraqi": {
+        "iso_code": "yhd",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arabic, Judeo-Moroccan": {
+        "iso_code": "aju",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arabic, Judeo-Tripolitanian": {
+        "iso_code": "yud",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arabic, Judeo-Yemeni": {
+        "iso_code": "jye",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Arabic, Levantine": {
+        "iso_code": "apc",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Libyan": {
+        "iso_code": "ayl",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Mesopotamian": {
+        "iso_code": "acm",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Moroccan": {
+        "iso_code": "ary",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Najdi": {
+        "iso_code": "ars",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, North Mesopotamian": {
+        "iso_code": "ayp",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Omani": {
+        "iso_code": "acx",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Sa\u2019idi": {
+        "iso_code": "aec",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Sanaani": {
+        "iso_code": "ayn",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Arabic, Shihhi": {
+        "iso_code": "ssh",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Arabic, Standard": {
+        "iso_code": "arb",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Sudanese": {
+        "iso_code": "apd",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Ta\u2019izzi-Adeni": {
+        "iso_code": "acq",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Tajiki": {
+        "iso_code": "abh",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arabic, Tunisian": {
+        "iso_code": "aeb",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Arabic, Uzbeki": {
+        "iso_code": "auz",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aragonese": {
+        "iso_code": "arg",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arakwal": {
+        "iso_code": "rkw",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aralle-Tabulahan": {
+        "iso_code": "atq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aramba": {
+        "iso_code": "stk",
+        "population": "Less than 10K",
+        "language_status": "Institutional"
+    },
+    "Aranadan": {
+        "iso_code": "aaf",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aranama-Tamique": {
+        "iso_code": "xrt",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aranda, Lower Southern": {
+        "iso_code": "axl",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arandai": {
+        "iso_code": "jbj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Araona": {
+        "iso_code": "aro",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arapaho": {
+        "iso_code": "arp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arapaso": {
+        "iso_code": "arj",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Ar\u00e1ra, Mato Grosso": {
+        "iso_code": "axg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arara, Par\u00e1": {
+        "iso_code": "aap",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ararandew\u00e1ra": {
+        "iso_code": "xaj",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Arawak": {
+        "iso_code": "arw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arawet\u00e9": {
+        "iso_code": "awt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Arbore": {
+        "iso_code": "arv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Archi": {
+        "iso_code": "aqc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Are": {
+        "iso_code": "mwc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Areba": {
+        "iso_code": "aea",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Arem": {
+        "iso_code": "aem",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Argentine Sign Language": {
+        "iso_code": "aed",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Argobba": {
+        "iso_code": "agj",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arguni": {
+        "iso_code": "agf",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arh\u00e2": {
+        "iso_code": "aqr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arh\u00f6": {
+        "iso_code": "aok",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arhuaco": {
+        "iso_code": "arh",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ari": {
+        "iso_code": "aac",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aribwatsa": {
+        "iso_code": "laz",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aribwaung": {
+        "iso_code": "ylu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arigidi": {
+        "iso_code": "aqg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Arikap\u00fa": {
+        "iso_code": "ark",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arikara": {
+        "iso_code": "ari",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Arikem": {
+        "iso_code": "ait",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Arin": {
+        "iso_code": "xrn",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aringa": {
+        "iso_code": "luc",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Armenian": {
+        "iso_code": "hye",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Armenian Sign Language": {
+        "iso_code": "aen",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Armenian, Western": {
+        "iso_code": "hyw",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Aro": {
+        "iso_code": "tei",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aromanian": {
+        "iso_code": "rup",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Arop-Lokep": {
+        "iso_code": "apr",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Arosi": {
+        "iso_code": "aia",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Arpitan": {
+        "iso_code": "frp",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Arrarnta, Western": {
+        "iso_code": "are",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Arrernte, Eastern": {
+        "iso_code": "aer",
+        "population": "Less than 10K",
+        "language_status": "Institutional"
+    },
+    "Arritinngithigh": {
+        "iso_code": "rrt",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Arta": {
+        "iso_code": "atz",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aru\u00e1": {
+        "iso_code": "arx",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aruamu": {
+        "iso_code": "msy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aruek": {
+        "iso_code": "aur",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Arum": {
+        "iso_code": "aab",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aruop": {
+        "iso_code": "lsr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Arutani": {
+        "iso_code": "atx",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "As": {
+        "iso_code": "asz",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Asa\u2019a": {
+        "iso_code": "kyy",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Asaba": {
+        "iso_code": "seo",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Asaro\u2019o": {
+        "iso_code": "mtv",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ash\u00e1ninka": {
+        "iso_code": "cni",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ashe": {
+        "iso_code": "ahs",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ash\u00e9ninka, Pajonal": {
+        "iso_code": "cjo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ash\u00e9ninka, Peren\u00e9": {
+        "iso_code": "prq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ash\u00e9ninka, Pichis": {
+        "iso_code": "cpu",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ash\u00e9ninka, South Ucayali": {
+        "iso_code": "cpy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ash\u00e9ninka, Ucayali-Yur\u00faa": {
+        "iso_code": "cpb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ashkun": {
+        "iso_code": "ask",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ashtiani": {
+        "iso_code": "atn",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Asilulu": {
+        "iso_code": "asl",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Askopan": {
+        "iso_code": "eiv",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Asmat, Casuarina Coast": {
+        "iso_code": "asc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asmat, Central": {
+        "iso_code": "cns",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asmat, North": {
+        "iso_code": "nks",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Asmat, Yaosakor": {
+        "iso_code": "asy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asoa": {
+        "iso_code": "asv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Assamese": {
+        "iso_code": "asm",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Assangori": {
+        "iso_code": "sjg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Assiniboine": {
+        "iso_code": "asb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Assyrian Neo-Aramaic": {
+        "iso_code": "aii",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Asturian": {
+        "iso_code": "ast",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Asu": {
+        "iso_code": "aum",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asumboa": {
+        "iso_code": "aua",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asuri": {
+        "iso_code": "asr",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Asurini of Xing\u00fa": {
+        "iso_code": "asn",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Asurini, Tocantins": {
+        "iso_code": "asu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ata": {
+        "iso_code": "atm",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Atakapa": {
+        "iso_code": "aqp",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Atampaya": {
+        "iso_code": "amz",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Atauran": {
+        "iso_code": "adb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Atayal": {
+        "iso_code": "tay",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ateso": {
+        "iso_code": "teo",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Athpariya": {
+        "iso_code": "aph",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ati": {
+        "iso_code": "atk",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atikamekw": {
+        "iso_code": "atj",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Atin": {
+        "iso_code": "plb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atohwaim": {
+        "iso_code": "aqm",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atong": {
+        "iso_code": "ato",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atorada": {
+        "iso_code": "aox",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Atoro": {
+        "iso_code": "tdv",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Atsahuaca": {
+        "iso_code": "atc",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Atsam": {
+        "iso_code": "cch",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Atsugewi": {
+        "iso_code": "atw",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Atta, Faire": {
+        "iso_code": "azt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atta, Pamplona": {
+        "iso_code": "att",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Atta, Pudtol": {
+        "iso_code": "atp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Atti\u00e9": {
+        "iso_code": "ati",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Au": {
+        "iso_code": "avt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aukan": {
+        "iso_code": "djk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aulua": {
+        "iso_code": "aul",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Aur\u00e1": {
+        "iso_code": "aux",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Aushi": {
+        "iso_code": "auh",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aushiri": {
+        "iso_code": "avs",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Auslan": {
+        "iso_code": "asf",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Austral": {
+        "iso_code": "aut",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Australian Aborigines Sign Language": {
+        "iso_code": "asw",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Austrian Sign Language": {
+        "iso_code": "asq",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Auwe": {
+        "iso_code": "smf",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Auye": {
+        "iso_code": "auu",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Auyokawa": {
+        "iso_code": "auo",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Av\u00e1-Canoeiro": {
+        "iso_code": "avv",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Avar": {
+        "iso_code": "ava",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Avatime": {
+        "iso_code": "avn",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Avau": {
+        "iso_code": "avb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Avava": {
+        "iso_code": "tmb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Avestan": {
+        "iso_code": "ave",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Avikam": {
+        "iso_code": "avi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Avokaya": {
+        "iso_code": "avu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awa": {
+        "iso_code": "vwa",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Awa-Cuaiquer": {
+        "iso_code": "kwi",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Awabakal": {
+        "iso_code": "awk",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Awad Bing": {
+        "iso_code": "bcu",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Awadhi": {
+        "iso_code": "awa",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Awaj\u00fan": {
+        "iso_code": "agr",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Awak": {
+        "iso_code": "awo",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Awakateko": {
+        "iso_code": "agu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awar": {
+        "iso_code": "aya",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awara": {
+        "iso_code": "awx",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Awbono": {
+        "iso_code": "awh",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Aweer": {
+        "iso_code": "bob",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Awera": {
+        "iso_code": "awr",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Awet\u00ed": {
+        "iso_code": "awe",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awing": {
+        "iso_code": "azo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awishira": {
+        "iso_code": "ash",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Awiyaana": {
+        "iso_code": "auy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awjilah": {
+        "iso_code": "auj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awngi": {
+        "iso_code": "awn",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awngthim": {
+        "iso_code": "gwm",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Awtuw": {
+        "iso_code": "kmn",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awu": {
+        "iso_code": "yiu",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Awun": {
+        "iso_code": "aww",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awutu": {
+        "iso_code": "afu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Awyi": {
+        "iso_code": "auw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, Asue": {
+        "iso_code": "psa",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, Central": {
+        "iso_code": "awu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, Edera": {
+        "iso_code": "awy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, Jair": {
+        "iso_code": "awv",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, North": {
+        "iso_code": "yir",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Awyu, South": {
+        "iso_code": "aws",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Axamb": {
+        "iso_code": "ahb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Axi": {
+        "iso_code": "yix",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ayabadhu": {
+        "iso_code": "ayd",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Ayere": {
+        "iso_code": "aye",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ayerrerenge": {
+        "iso_code": "axe",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Ayi": {
+        "iso_code": "ayq",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ayizi": {
+        "iso_code": "yyz",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Aymara": {
+        "iso_code": "aym",
+        "language_status": "Unknown"
+    },
+    "Aymara, Central": {
+        "iso_code": "ayr",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Aymara, Southern": {
+        "iso_code": "ayc",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ayoreo": {
+        "iso_code": "ayo",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Ayta, Abellen": {
+        "iso_code": "abp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ayta, Ambala": {
+        "iso_code": "abc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ayta, Mag-antsi": {
+        "iso_code": "sgb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ayta, Mag-Indi": {
+        "iso_code": "blx",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Ayta, Magbukun": {
+        "iso_code": "ayt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Ayta, Sorsogon": {
+        "iso_code": "ays",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Ayu": {
+        "iso_code": "ayu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Azerbaijani": {
+        "iso_code": "aze",
+        "language_status": "Unknown"
+    },
+    "Azerbaijani, North": {
+        "iso_code": "azj",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Azerbaijani, South": {
+        "iso_code": "azb",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Azha": {
+        "iso_code": "aza",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Azhe": {
+        "iso_code": "yiz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Aziana": {
+        "iso_code": "gat",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baan": {
+        "iso_code": "bvj",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baangi": {
+        "iso_code": "bqx",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Baatonum": {
+        "iso_code": "bba",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Babango": {
+        "iso_code": "bbm",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Babanki": {
+        "iso_code": "bbk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Babar, North": {
+        "iso_code": "bcd",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Babar, Southeast": {
+        "iso_code": "vbb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Babatana": {
+        "iso_code": "baa",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Babine": {
+        "iso_code": "bcr",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Babuza": {
+        "iso_code": "bzg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bacama": {
+        "iso_code": "bcy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bada": {
+        "iso_code": "bhz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Badaga": {
+        "iso_code": "bfq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bade": {
+        "iso_code": "bde",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Badeshi": {
+        "iso_code": "bdz",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Badimaya": {
+        "iso_code": "bia",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Badjiri": {
+        "iso_code": "jbi",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Badui": {
+        "iso_code": "bac",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Badyara": {
+        "iso_code": "pbp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baeggu": {
+        "iso_code": "bvd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baelelea": {
+        "iso_code": "bvc",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baetora": {
+        "iso_code": "btr",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bafaw-Balong": {
+        "iso_code": "bwt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bafia": {
+        "iso_code": "ksf",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bafut": {
+        "iso_code": "bfd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baga Kaloum": {
+        "iso_code": "bqf",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Baga Koga": {
+        "iso_code": "bgo",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Baga Manduri": {
+        "iso_code": "bmd",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baga Pokur": {
+        "iso_code": "bcg",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baga Sitemu": {
+        "iso_code": "bsp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baga Soban\u00e9": {
+        "iso_code": "bsv",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bagheli": {
+        "iso_code": "bfy",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Bagirmi": {
+        "iso_code": "bmi",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bago-Kusuntu": {
+        "iso_code": "bqg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bagobo-Klata": {
+        "iso_code": "bgi",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bagri": {
+        "iso_code": "bgq",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Bagupi": {
+        "iso_code": "bpi",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bagusa": {
+        "iso_code": "bqb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bagvalal": {
+        "iso_code": "kva",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baham": {
+        "iso_code": "bdw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bahamas English Creole": {
+        "iso_code": "bah",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bahau": {
+        "iso_code": "bhv",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bahinemo": {
+        "iso_code": "bjh",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bahing": {
+        "iso_code": "bhj",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bahnar": {
+        "iso_code": "bdq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bahonsuai": {
+        "iso_code": "bsu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bai": {
+        "iso_code": "bdj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bai, Central": {
+        "iso_code": "bca",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bai, Lama": {
+        "iso_code": "lay",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bai, Panyi": {
+        "iso_code": "bfc",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bai, Southern": {
+        "iso_code": "bfs",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baibai": {
+        "iso_code": "bbf",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baikeno": {
+        "iso_code": "bkx",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baima": {
+        "iso_code": "bqh",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Baimak": {
+        "iso_code": "bmx",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bainouk-Gunyaamolo": {
+        "iso_code": "bcz",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bainouk-Gunyu\u00f1o": {
+        "iso_code": "bab",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bainouk-Samik": {
+        "iso_code": "bcb",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baiso": {
+        "iso_code": "bsw",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baiyamo": {
+        "iso_code": "ppe",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bajan": {
+        "iso_code": "bjs",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bajau, Indonesian": {
+        "iso_code": "bdl",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bajau, West Coast": {
+        "iso_code": "bdr",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bajelani": {
+        "iso_code": "bjm",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bajjika": {
+        "iso_code": "vjk",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Baka": {
+        "iso_code": "bkc",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bakair\u00ed": {
+        "iso_code": "bkq",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bakaka": {
+        "iso_code": "bqz",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bakati\u2019": {
+        "iso_code": "bei",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bakati\u2019, Rara": {
+        "iso_code": "lra",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bakati\u2019, Sara": {
+        "iso_code": "sre",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bakhti\u00e2ri": {
+        "iso_code": "bqi",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Baki": {
+        "iso_code": "bki",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bakoko": {
+        "iso_code": "bkh",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bakole": {
+        "iso_code": "kme",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bakumpai": {
+        "iso_code": "bkr",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bakw\u00e9": {
+        "iso_code": "bjw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Balaesang": {
+        "iso_code": "bls",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Balangao": {
+        "iso_code": "blw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Balanta": {
+        "iso_code": "ble",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Balanta-Ganja": {
+        "iso_code": "bjt",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Balantak": {
+        "iso_code": "blz",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Baldemu": {
+        "iso_code": "bdn",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Balen": {
+        "iso_code": "nsw",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bali": {
+        "iso_code": "bcp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Balkan Gagauz Turkish": {
+        "iso_code": "bgx",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Balo": {
+        "iso_code": "bqo",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Balochi, Eastern": {
+        "iso_code": "bgp",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Balochi, Southern": {
+        "iso_code": "bcc",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Balochi, Western": {
+        "iso_code": "bgn",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Baloi": {
+        "iso_code": "biz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Balti": {
+        "iso_code": "bft",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baluchi": {
+        "iso_code": "bal",
+        "language_status": "Unknown"
+    },
+    "Bamanankan": {
+        "iso_code": "bam",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bambam": {
+        "iso_code": "ptu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bambili-Bambui": {
+        "iso_code": "baw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bamu": {
+        "iso_code": "bcf",
+        "population": "Less than 10K",
+        "language_status": "Institutional"
+    },
+    "Bamun": {
+        "iso_code": "bax",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bamwe": {
+        "iso_code": "bmg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Ban Khor Sign Language": {
+        "iso_code": "bfk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bana": {
+        "iso_code": "bcw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banam Bay": {
+        "iso_code": "vrt",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Banda": {
+        "iso_code": "bnd",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Banda-Bambari": {
+        "iso_code": "liy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda-Banda": {
+        "iso_code": "bpd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda-Mbr\u00e8s": {
+        "iso_code": "bqk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda-Nd\u00e9l\u00e9": {
+        "iso_code": "bfl",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda-Yangere": {
+        "iso_code": "yaj",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda, Mid-Southern": {
+        "iso_code": "bjo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda, South Central": {
+        "iso_code": "lnl",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda, Togbo-Vara": {
+        "iso_code": "tor",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banda, West Central": {
+        "iso_code": "bbp",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bandi": {
+        "iso_code": "bza",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bandial": {
+        "iso_code": "bqj",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bandjalang": {
+        "iso_code": "bdy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bangala": {
+        "iso_code": "bxg",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bangandu": {
+        "iso_code": "bgf",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bangba": {
+        "iso_code": "bbe",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banggai": {
+        "iso_code": "bgz",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bangi": {
+        "iso_code": "bni",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bangime": {
+        "iso_code": "dba",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bangka": {
+        "iso_code": "mfb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bangon": {
+        "iso_code": "bnj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bangubangu": {
+        "iso_code": "bnx",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bangwinji": {
+        "iso_code": "bsj",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baniva": {
+        "iso_code": "bvv",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Baniwa": {
+        "iso_code": "bwi",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Banjar": {
+        "iso_code": "bjn",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bankagooma": {
+        "iso_code": "bxw",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bankal": {
+        "iso_code": "jjr",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bankon": {
+        "iso_code": "abb",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bannoni": {
+        "iso_code": "bcm",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bantawa": {
+        "iso_code": "bap",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bantayanon": {
+        "iso_code": "bfx",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bantik": {
+        "iso_code": "bnq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bantoanon": {
+        "iso_code": "bno",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Banyjima": {
+        "iso_code": "pnw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baoul\u00e9": {
+        "iso_code": "bci",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Barababaraba": {
+        "iso_code": "rbp",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Barai": {
+        "iso_code": "bbb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barakai": {
+        "iso_code": "baj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baram": {
+        "iso_code": "brd",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Barama": {
+        "iso_code": "bbg",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Barambu": {
+        "iso_code": "brm",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baramu": {
+        "iso_code": "bmz",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barapasi": {
+        "iso_code": "brp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Baras": {
+        "iso_code": "brs",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Barasana-Eduria": {
+        "iso_code": "bsn",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barbaram": {
+        "iso_code": "vmb",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Barbare\u00f1o": {
+        "iso_code": "boi",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bardi": {
+        "iso_code": "bcj",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bar\u00e9": {
+        "iso_code": "bae",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Barein": {
+        "iso_code": "bva",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bareli, Palya": {
+        "iso_code": "bpx",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bareli, Pauri": {
+        "iso_code": "bfb",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Bareli, Rathwi": {
+        "iso_code": "bgd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bargam": {
+        "iso_code": "mlp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bari": {
+        "iso_code": "bfa",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bar\u00ed": {
+        "iso_code": "mot",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bariai": {
+        "iso_code": "bch",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bariji": {
+        "iso_code": "bjc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barikanchi": {
+        "iso_code": "bxo",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Barikewa": {
+        "iso_code": "jbk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barngarla": {
+        "iso_code": "bjb",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Barok": {
+        "iso_code": "bjk",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Barombi": {
+        "iso_code": "bbi",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Barrow Point": {
+        "iso_code": "bpt",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Baruga": {
+        "iso_code": "bjz",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Barwe": {
+        "iso_code": "bwg",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Barzani-Sandu Jewish Neo-Aramaic": {
+        "iso_code": "bjf",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Basa": {
+        "iso_code": "bzw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Basa-Gumna": {
+        "iso_code": "bsl",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Basa-Gurmana": {
+        "iso_code": "buj",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Basaa": {
+        "iso_code": "bas",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Basap": {
+        "iso_code": "bdb",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Basay": {
+        "iso_code": "byq",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bashkardi": {
+        "iso_code": "bsg",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bashkort": {
+        "iso_code": "bak",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Basketo": {
+        "iso_code": "bst",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Basque": {
+        "iso_code": "eus",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bassa": {
+        "iso_code": "bsq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bassa-Kontagora": {
+        "iso_code": "bsr",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bassossi": {
+        "iso_code": "bsi",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bata": {
+        "iso_code": "bta",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Batak": {
+        "iso_code": "bya",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Batak Alas-Kluet": {
+        "iso_code": "btz",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Batak Angkola": {
+        "iso_code": "akb",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Batak Dairi": {
+        "iso_code": "btd",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Batak Karo": {
+        "iso_code": "btx",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Batak Mandailing": {
+        "iso_code": "btm",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Batak Simalungun": {
+        "iso_code": "bts",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Batak Toba": {
+        "iso_code": "bbc",
+        "population": "1M to 1B",
+        "language_status": "Endangered"
+    },
+    "Batanga": {
+        "iso_code": "bnm",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Batek": {
+        "iso_code": "btq",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bateri": {
+        "iso_code": "btv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bathari": {
+        "iso_code": "bhm",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bati": {
+        "iso_code": "bvt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Batjala": {
+        "iso_code": "xby",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bats": {
+        "iso_code": "bbl",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Batu": {
+        "iso_code": "btu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Batui": {
+        "iso_code": "zbt",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bauchi": {
+        "iso_code": "bsf",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bauni": {
+        "iso_code": "bpe",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Baure": {
+        "iso_code": "brg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bauria": {
+        "iso_code": "bge",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bauro": {
+        "iso_code": "bxa",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bauwaki": {
+        "iso_code": "bwk",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bauzi": {
+        "iso_code": "bvz",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bavarian": {
+        "iso_code": "bar",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Bay Miwok": {
+        "iso_code": "mkq",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bayali": {
+        "iso_code": "bjy",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Baybayanon": {
+        "iso_code": "bvy",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Baygo": {
+        "iso_code": "byg",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bayono": {
+        "iso_code": "byl",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bayot": {
+        "iso_code": "bda",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bayungu": {
+        "iso_code": "bxj",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bazigar": {
+        "iso_code": "bfr",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Beaver": {
+        "iso_code": "bea",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beba": {
+        "iso_code": "bfp",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bebele": {
+        "iso_code": "beb",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bebeli": {
+        "iso_code": "bek",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bebil": {
+        "iso_code": "bxp",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bedamuni": {
+        "iso_code": "beo",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bedawiyet": {
+        "iso_code": "bej",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bedjond": {
+        "iso_code": "bjv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bedoanas": {
+        "iso_code": "bed",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beeke": {
+        "iso_code": "bkf",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beele": {
+        "iso_code": "bxq",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Beembe": {
+        "iso_code": "beq",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Beezen": {
+        "iso_code": "bnz",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Befang": {
+        "iso_code": "bby",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beginci": {
+        "iso_code": "ebc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Behoa": {
+        "iso_code": "bep",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bekwarra": {
+        "iso_code": "bkv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bekwel": {
+        "iso_code": "bkw",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Belait": {
+        "iso_code": "beg",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Belanda Bor": {
+        "iso_code": "bxb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Belanda Viri": {
+        "iso_code": "bvi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Belarusian": {
+        "iso_code": "bel",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Belhariya": {
+        "iso_code": "byw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beli": {
+        "iso_code": "blm",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Belize English Creole": {
+        "iso_code": "bzj",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bella Coola": {
+        "iso_code": "blc",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bellari": {
+        "iso_code": "brw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Belning": {
+        "iso_code": "glb",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bemba": {
+        "iso_code": "bem",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bembe": {
+        "iso_code": "bmb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bena": {
+        "iso_code": "yun",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Benabena": {
+        "iso_code": "bef",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Benamanga": {
+        "iso_code": "egm",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bench": {
+        "iso_code": "bcq",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bende": {
+        "iso_code": "bdp",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bendi": {
+        "iso_code": "bct",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Beneraf": {
+        "iso_code": "bnv",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Beng": {
+        "iso_code": "nhb",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Benga": {
+        "iso_code": "bng",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bengali": {
+        "iso_code": "ben",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Benggoi": {
+        "iso_code": "bgy",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bentong": {
+        "iso_code": "bnu",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Benyadu\u2019": {
+        "iso_code": "byd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Beothuk": {
+        "iso_code": "bue",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bepour": {
+        "iso_code": "bie",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Berakou": {
+        "iso_code": "bxv",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Berawan, Central": {
+        "iso_code": "zbc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Berawan, East": {
+        "iso_code": "zbe",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Berawan, West": {
+        "iso_code": "zbw",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Berbice Dutch Creole": {
+        "iso_code": "brc",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Berik": {
+        "iso_code": "bkl",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Berinomo": {
+        "iso_code": "bit",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bermejo Wich\u00ed": {
+        "iso_code": "wlv",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Berom": {
+        "iso_code": "bom",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Berta": {
+        "iso_code": "wti",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Berti": {
+        "iso_code": "byt",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Besme": {
+        "iso_code": "bes",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Betaf": {
+        "iso_code": "bfe",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Betawi": {
+        "iso_code": "bew",
+        "population": "1M to 1B",
+        "language_status": "Endangered"
+    },
+    "Bete": {
+        "iso_code": "byf",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bete-Bendi": {
+        "iso_code": "btt",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "B\u00e9t\u00e9, Daloa": {
+        "iso_code": "bev",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "B\u00e9t\u00e9, Gagnoa": {
+        "iso_code": "btg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "B\u00e9t\u00e9, Guiberoua": {
+        "iso_code": "bet",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Beti": {
+        "iso_code": "eot",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bezhta": {
+        "iso_code": "kap",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bhadrawahi": {
+        "iso_code": "bhd",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bhalay": {
+        "iso_code": "bhx",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bharia": {
+        "iso_code": "bha",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bhatri": {
+        "iso_code": "bgw",
+        "population": "10K to 1M",
+        "language_status": "Institutional"
+    },
+    "Bhattiyali": {
+        "iso_code": "bht",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bhaya": {
+        "iso_code": "bhe",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bhele": {
+        "iso_code": "bhy",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bhilali": {
+        "iso_code": "bhi",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bhili": {
+        "iso_code": "bhb",
+        "population": "1M to 1B",
+        "language_status": "Stable"
+    },
+    "Bhogoto": {
+        "iso_code": "bdt",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bhojpuri": {
+        "iso_code": "bho",
+        "population": "1M to 1B",
+        "language_status": "Institutional"
+    },
+    "Bhujel": {
+        "iso_code": "byh",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bhunjia": {
+        "iso_code": "bhu",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Biafada": {
+        "iso_code": "bif",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Biage": {
+        "iso_code": "bdf",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Biak": {
+        "iso_code": "bhw",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Biali": {
+        "iso_code": "beh",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Biangai": {
+        "iso_code": "big",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Biao": {
+        "iso_code": "byk",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Biao Mon": {
+        "iso_code": "bmt",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Biao-Jiao Mien": {
+        "iso_code": "bje",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Biate": {
+        "iso_code": "biu",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bibbulman": {
+        "iso_code": "xbp",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bidayuh Serian": {
+        "iso_code": "sdo",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bidayuh, Bau": {
+        "iso_code": "sne",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bidayuh, Biatah": {
+        "iso_code": "bth",
+        "population": "10K to 1M",
+        "language_status": "Endangered"
+    },
+    "Bidayuh, Tringgus-Sembaan": {
+        "iso_code": "trx",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bidhawal": {
+        "iso_code": "ihw",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bidiyo": {
+        "iso_code": "bid",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    },
+    "Bidjara": {
+        "iso_code": "bym",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Biem": {
+        "iso_code": "bmc",
+        "population": "Less than 10K",
+        "language_status": "Stable"
+    },
+    "Bierebo": {
+        "iso_code": "bnk",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bieria": {
+        "iso_code": "brj",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Biga": {
+        "iso_code": "bhc",
+        "population": "Less than 10K",
+        "language_status": "Endangered"
+    },
+    "Bigambal": {
+        "iso_code": "xbe",
+        "population": "None",
+        "language_status": "Extinct"
+    },
+    "Bih": {
+        "iso_code": "ibh",
+        "population": "None",
+        "language_status": "Endangered"
+    },
+    "Bijag\u00f3": {
+        "iso_code": "bjg",
+        "population": "10K to 1M",
+        "language_status": "Stable"
+    }
+}
