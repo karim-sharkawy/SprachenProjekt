@@ -1,54 +1,24 @@
 
-
-
-
-am5.ready(function() {
-
-    var root = am5.Root.new("chartdiv");
-
-    root.setThemes([
-        am5themes_Animated.new(root)
-    ]);
-
-    // Create chart
-    var chart = root.container.children.push(
-        am5map.MapChart.new(root, {
-            projection: am5map.geoMercator()  // Set the projection type
-        })
-    );
-
-    // Add polygon series
-    var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-        geoJSON: am5geodata_worldLow
-    }));
-
-    // Configure polygons
-    polygonSeries.mapPolygons.template.setAll({
-        tooltipText: "{name}",
-        interactive: true
-    });
-
-    // Add appearance animation
-    chart.appear(1000, 100);
-
-}); 
-
-//     // Create root and chart
+// am5.ready(function() {
+//     // Create root element
 //     var root = am5.Root.new("chartdiv");
 
+//     // Set themes
 //     root.setThemes([
 //         am5themes_Animated.new(root)
 //     ]);
 
+//     // Create the map chart
 //     var chart = root.container.children.push(am5map.MapChart.new(root, {
-//         panX: "rotateX",
-//         panY: "rotateY",
-//         projection: am5map.geoOrthographic()
+//         panX: "translateX",
+//         panY: "translateY",
+//         projection: am5map.geoMercator()
 //     }));
 
-//     // Create polygon series for countries
+//     // Create main polygon series for countries
 //     var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-//         geoJSON: am5geodata_worldLow
+//         geoJSON: am5geodata_worldLow,
+//         exclude: ["AQ"] // Exclude Antarctica
 //     }));
 
 //     polygonSeries.mapPolygons.template.setAll({
@@ -58,24 +28,36 @@ am5.ready(function() {
 //     });
 
 //     polygonSeries.mapPolygons.template.states.create("hover", {
-//         fill: am5.color(0x677935)
+//         fill: root.interfaceColors.get("primaryButtonHover")
 //     });
 
 //     polygonSeries.mapPolygons.template.states.create("active", {
-//         fill: am5.color(0x677935)
+//         fill: root.interfaceColors.get("primaryButtonHover")
 //     });
 
-//     // Create a series for graticules
-//     var graticuleSeries = chart.series.push(am5map.GraticuleSeries.new(root, {}));
-//     graticuleSeries.mapLines.template.setAll({
-//         stroke: am5.color(0x000000),
-//         strokeOpacity: 0.1
+//     var previousPolygon;
+//     polygonSeries.mapPolygons.template.on("active", function (active, target) {
+//         if (previousPolygon && previousPolygon !== target) {
+//             previousPolygon.set("active", false);
+//         }
+//         if (target.get("active")) {
+//             polygonSeries.zoomToDataItem(target.dataItem);
+//         } else {
+//             chart.goHome();
+//         }
+//         previousPolygon = target;
 //     });
 
 //     // Add zoom control
-//     chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+//     var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
+//     zoomControl.homeButton.set("visible", true);
+
+//     // Set clicking on "water" to zoom out
+//     chart.chartContainer.get("background").events.on("click", function () {
+//         chart.goHome();
+//     });
 
 //     // Make stuff animate on load
 //     chart.appear(1000, 100);
-
 // }); // end am5.ready()
+
