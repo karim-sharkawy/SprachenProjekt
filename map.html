@@ -32,7 +32,7 @@
             padding: 0px; /* Adjust padding as needed */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
             width: 80%; /* Adjust width as needed */
-            height: 80%; /* Adjust height as needed */
+            height: 70%; /* Adjust height as needed */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -43,13 +43,57 @@
             height: 100vh;
             z-index: 10;
         }
+
+        .status-buttons {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 20px; /* Adjust spacing as needed */
+          padding-top: 20px; /* Add padding above the buttons */
+        }
+
+        .status-button {
+          margin: 0 10px; /* Adjust spacing between buttons */
+          padding: 12px 24px; /* Ensure sufficient padding for a larger clickable area */
+          border: none;
+          border-radius: 25px; /* Rounded border */
+          color: black !important;
+          font-size: 16px;
+          font-weight: bold; 
+          cursor: pointer;
+          background-image: linear-gradient(to right, #4CAF50, #2ECC71); /* Gradient background */
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+          transition: all 0.3s ease; /* Smooth transition */
+          line-height: 1.5; /* Adjust line height */
+          display: flex; /* Use inline-flex for better vertical alignment */
+          justify-content: center; /* Center text horizontally */
+          align-items: center; /* Center text vertically */
+
+        }
+
+        .status-button:hover {
+            transform: translateY(-2px); /* Lift on hover */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+        }
+
+        .alive {
+            background-image: linear-gradient(to right, #4CAF50, #2ECC71); /* Green gradient */
+        }
+
+        .endangered {
+            background-image: linear-gradient(to right, #F1C40F, #F39C12); /* Yellow gradient */
+        }
+
+        .extinct {
+            background-image: linear-gradient(to right, #E74C3C, #C0392B); /* Red gradient */
+        }
     </style>
 </head>
 
 <body class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
-        <nav id="nav" >
+        <nav id="nav" style="position:initial">
           <ul>
               <li><a href="index.html">Back to Introduction</a></li>
               <li><a href="map.html">View Map</a></li>
@@ -58,14 +102,23 @@
     
         <!-- Header, Nav, Main, and Footer for the map page -->
         <!-- Add your map section content here -->
-        <!-- Map Container -->X
+        <!-- Map Container -->
         <section id="cta" class="main special">
             <header class="major">
                 <h2>The Map</h2>
                 <p>Feel free to contact me for any suggestions!</p>
             </header>
             <!-- Map Container -->
-            <div id="chartdiv" class="map-container" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; margin: 0 auto;"></div> <!-- Ensure to set height and width for the map container -->
+
+            <div class="status-buttons">
+              <button class="status-button alive" onclick="filterLanguages(Stable)">Alive</button>
+              <button class="status-button endangered">Endangered</button>
+              <button class="status-button extinct">Extinct</button>
+          </div>
+
+          <div id="chartdiv" class="map-container" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; margin: 0 auto;"></div> <!-- Ensure to set height and width for the map container -->
+
+            
         </section>
                       
         <!-- Scripts -->
@@ -85,81 +138,107 @@
     
     <!-- Chart code -->
     <script>
-    am5.ready(function() {
-    
-    // Create root element
-    // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-    var root = am5.Root.new("chartdiv");
-    
-    
-    // Set themes
-    // https://www.amcharts.com/docs/v5/concepts/themes/
-    root.setThemes([
-      am5themes_Animated.new(root)
-    ]);
-    
-    
-    // Create the map chart
-    // https://www.amcharts.com/docs/v5/charts/map-chart/
-    var chart = root.container.children.push(am5map.MapChart.new(root, {
-      panX: "translateX",
-      panY: "translateY",
-      projection: am5map.geoMercator()
-    }));
-    
-    
-    // Create main polygon series for countries
-    // https://www.amcharts.com/docs/v5/charts/map-chart/map-polygon-series/
-    var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-      geoJSON: am5geodata_worldLow,
-      exclude: ["AQ"]
-    }));
-    
-    polygonSeries.mapPolygons.template.setAll({
-      tooltipText: "{name}",
-      toggleKey: "active",
-      interactive: true
-    });
-    
-    polygonSeries.mapPolygons.template.states.create("hover", {
-      fill: root.interfaceColors.get("primaryButtonHover")
-    });
-    
-    polygonSeries.mapPolygons.template.states.create("active", {
-      fill: root.interfaceColors.get("primaryButtonHover")
-    });
-    
-    var previousPolygon;
-    
-    polygonSeries.mapPolygons.template.on("active", function (active, target) {
-      if (previousPolygon && previousPolygon != target) {
-        previousPolygon.set("active", false);
-      }
-      if (target.get("active")) {
-        polygonSeries.zoomToDataItem(target.dataItem );
-      }
-      else {
-        chart.goHome();
-      }
-      previousPolygon = target;
-    });
-    
-    
-    // Add zoom control
-    // https://www.amcharts.com/docs/v5/charts/map-chart/map-pan-zoom/#Zoom_control
-    var zoomControl = chart.set("zoomControl", am5map.ZoomControl.new(root, {}));
-    zoomControl.homeButton.set("visible", true);
-    
-    // Set clicking on "water" to zoom out
-    chart.chartContainer.get("background").events.on("click", function () {
-      chart.goHome();
-    })
-    
-    
-    // Make stuff animate on load
-    chart.appear(1000, 100);
-    
-    }); // end am5.ready()
+        let languageData = {};
+        let pointSeries;
+
+        // Define initializeMap before calling it
+        function initializeMap() {
+            am5.ready(function() {
+                // Create root element
+                var root = am5.Root.new("chartdiv");
+
+                // Set themes
+                root.setThemes([am5themes_Animated.new(root)]);
+
+                // Create the map chart
+                var chart = root.container.children.push(am5map.MapChart.new(root, {
+                    panX: "translateX",
+                    panY: "translateY",
+                    projection: am5map.geoMercator()
+                }));
+
+                // Create polygon series for countries
+                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+                    geoJSON: am5geodata_worldLow,
+                    exclude: ["AQ"]
+                }));
+                
+                // Create point series for languages
+                pointSeries = chart.series.push(am5map.MapPointSeries.new(root, {
+                    valueField: "value",
+                    categoryField: "category"
+                }));
+                
+                // Add bullet for points
+                pointSeries.bullets.push(function() {
+                    return am5.Bullet.new(root, {
+                        sprite: am5.Circle.new(root, {
+                            radius: 3,
+                            fill: am5.color(0x000000),
+                            tooltipText: "{name}"
+                        })
+                    });
+                });
+
+                console.log('Map initialized.');
+            });
+        }
+
+        function addPoint(lat, long, name) {
+            pointSeries.data.push({
+                geometry: {
+                    type: "Point",
+                    coordinates: [parseFloat(lat), parseFloat(long)]
+                },
+                name: name
+            });
+        }
+
+
+        // Fetch JSON data
+        fetch('language_info_test.json')  // Replace with your JSON file path
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            languageData = data;
+            console.log('Loaded JSON data:', languageData);
+            initializeMap();
+
+            // Add points after map initialization
+            for (const [name, data] of Object.entries(languageData)) {
+                addPoint(data.coordinates.latitude, data.coordinates.longitude, name);
+            }
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+        function filterLanguages(status) {
+            if (!languageData || !pointSeries) {
+                console.error('Language data or point series is not initialized.');
+                return;
+            }
+            const mapData = [];
+            if (status == 'None') { //default
+              console.log("Salam buddy!");
+            } else {
+              for (const [name, data] of Object.entries(languageData)) {
+                  if (data.language_status === status) {
+                      mapData.push({
+                          name: name,
+                          latitude: parseFloat(data.coordinates.latitude),
+                          longitude: parseFloat(data.coordinates.longitude),
+                          value: 1,
+                          category: data.language_status
+                      });
+                  }
+              }
+            }
+            pointSeries.data.setAll(mapData);
+            console.log('Filtered languages:', mapData);
+        }
     </script>
     
     <!-- HTML -->
