@@ -37,6 +37,7 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
+            background-color: white;
         }
         #chartdiv {
             width: 100%;
@@ -150,7 +151,7 @@
                 
                 // Create root element
                 root = am5.Root.new("chartdiv");
-                root.fps = 60;
+                root.fps = 144;
                 // Set themes
                 root.setThemes([am5themes_Animated.new(root)]);
 
