@@ -28,9 +28,9 @@
         }
 
         .map-container {
-            border: 5px solid white; /* White border around the map container */
+            border: 5px solid black; /* White border around the map container */
             padding: 0px; /* Adjust padding as needed */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Optional shadow for depth */
             width: 80%; /* Adjust width as needed */
             height: 70%; /* Adjust height as needed */
             display: flex;
@@ -62,8 +62,8 @@
           font-size: 16px;
           font-weight: bold; 
           cursor: pointer;
-          background-image: linear-gradient(to right, #4CAF50, #2ECC71); /* Gradient background */
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+          /* background-image: linear-gradient(to right, #4CAF50, #2ECC71); Gradient background */
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Soft shadow */
           transition: all 0.3s ease; /* Smooth transition */
           line-height: 1.5; /* Adjust line height */
           display: flex; /* Use inline-flex for better vertical alignment */
@@ -77,8 +77,12 @@
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
         }
 
+        .all {
+            background-image: linear-gradient(to right, white, lightgray)
+        }
+
         .alive {
-            background-image: linear-gradient(to right, #4CAF50, #2ECC71); /* Green gradient */
+            background-image: linear-gradient(to right,#2ECC71, #4CAF50); /* Green gradient */
         }
 
         .endangered {
@@ -112,6 +116,7 @@
             <!-- Map Container -->
 
             <div class="status-buttons">
+              <button class="status-button all" onclick="filterLanguages('Default')">All</button>
               <button class="status-button alive" onclick="filterLanguages('Stable')">Alive</button>
               <button class="status-button endangered" onclick="filterLanguages('Endangered')">Endangered</button>
               <button class="status-button extinct"  onclick="filterLanguages('Extinct')">Extinct</button>
@@ -290,6 +295,12 @@
             if (status !== 'Stable' && status !== 'Endangered' && status !== 'Extinct') { //default
                 for (const [name, data] of Object.entries(languageData)) {
                     addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+                }
+            } else if (status === 'Stable') { // stable and institutional
+                for (const [name, data] of Object.entries(languageData)) {
+                    if (data.language_status === status || data.language_status === 'Institutional') {
+                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+                    }
                 }
             } else {
                 for (const [name, data] of Object.entries(languageData)) {
