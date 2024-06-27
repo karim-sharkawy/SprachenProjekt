@@ -269,54 +269,74 @@
 
         // on page load
         // Fetch JSON data
-        fetch('language_info.json') // use full data
-        // fetch('language_info_test.json')  // test data
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            languageData = data;
-            console.log('Loaded JSON data:', languageData);
-            initializeMap("Default");
+        const fetchData = debounce(() => {
+    fetch('language_info.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        languageData = data;
+        console.log('Loaded JSON data:', languageData);
+        initializeMap("Default");
 
-            // Add points after map initialization
-            for (const [name, data] of Object.entries(languageData)) {
-                addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-            }
-        })
-        .catch(error => console.error('Error loading JSON:', error));
+        // Add points after map initialization
+        for (const [name, data] of Object.entries(languageData)) {
+            addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+        }
+    })
+    .catch(error => console.error('Error loading JSON:', error));
+}, 300);
+
+fetchData();
+
 
 
         //on button press
-        function filterLanguages(status) {
-            // Check if root exists and remove it
-            pointSeries.data.clear();
-            root.dispose();
-            console.log(status);
-            // Initialize map with the new status
-            initializeMap(status);
+        // Define a debounce function
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
 
-            if (status !== 'Stable' && status !== 'Endangered' && status !== 'Extinct') { //default
-                for (const [name, data] of Object.entries(languageData)) {
-                    addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                }
-            } else if (status === 'Stable') { // stable and institutional
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status || data.language_status === 'Institutional') {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                    }
-                }
-            } else {
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status) {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                    }
-                }
+// Debounced filter function
+const debouncedFilterLanguages = debounce(function(status) {
+    pointSeries.data.clear();
+    if (root) {
+        root.dispose();
+    }
+    console.log(status);
+    initializeMap(status);
+
+    if (status !== 'Stable' && status !== 'Endangered' && status !== 'Extinct') { //default
+        for (const [name, data] of Object.entries(languageData)) {
+            addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+        }
+    } else if (status === 'Stable') { // stable and institutional
+        for (const [name, data] of Object.entries(languageData)) {
+            if (data.language_status === status || data.language_status === 'Institutional') {
+                addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
             }
         }
+    } else {
+        for (const [name, data] of Object.entries(languageData)) {
+            if (data.language_status === status) {
+                addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+            }
+        }
+    }
+}, 300); // Adjust debounce delay as needed (in milliseconds)
+
+// Function called on button press
+function filterLanguages(status) {
+    debouncedFilterLanguages(status);
+}
+
     </script>
     
     <!-- HTML -->
