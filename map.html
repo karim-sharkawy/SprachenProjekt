@@ -118,23 +118,13 @@
               <button class="status-button all" onclick="filterLanguages('Default')">All</button>
               <button class="status-button alive" onclick="filterLanguages('Stable')">Alive</button>
               <button class="status-button endangered" onclick="filterLanguages('Endangered')">Endangered</button>
-              <button class="status-button extinct"  onclick="filterLanguages('Extinct')">Extinct</button>
+              <button class="status-button extinct" onclick="filterLanguages('Extinct')">Extinct</button>
           </div>
 
           <div id="chartdiv" class="map-container" style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; margin: 0 auto;"></div> <!-- Ensure to set height and width for the map container -->
-
             
         </section>
                       
-        <!-- Styles -->
-        <style>
-            #chartdiv {
-                width: 100%;
-                height: 500px;
-                max-width: 100%;
-            }
-        </style>
-
         <!-- Resources -->
         <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
         <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
@@ -223,27 +213,26 @@
                     return am5.Bullet.new(root, { sprite: circle });
                 });
 
+                // Variable to hold the language data
+                let languageData = [];
+
                 // Function to load JSON data lazily
-                // Fetch JSON data
-fetch('language_info.json') // Replace with your actual JSON file path
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json();
-    })
-    .then(data => {
-        languageData = data; // Store fetched data in languageData variable
-        console.log('Loaded JSON data:', languageData);
+                function loadLanguageData(callback) {
+                    fetch('language_info.json') // Replace with your actual JSON file path
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            languageData = data; // Store fetched data in languageData variable
+                            console.log('Loaded JSON data:', languageData);
 
-        initializeMap("Default"); // Initialize map with default status
-
-        // Add points after map initialization
-        for (const [name, data] of Object.entries(languageData)) {
-            addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-        }
-    })
-    .catch(error => console.error('Error loading JSON:', error));
+                            if (callback) callback(languageData);
+                        })
+                        .catch(error => console.error('Error loading JSON:', error));
+                }
 
                 // Function to add points to the map
                 function addLanguagePoints(data) {
@@ -260,17 +249,20 @@ fetch('language_info.json') // Replace with your actual JSON file path
                     });
                 }
 
-                // Lazy load the data
-                loadLanguageData(addLanguagePoints);
+                // Initialize the map with a specific status
+                function initializeMap(status) {
+                    filterLanguages(status);
+                }
 
                 // Filter languages by status
                 function filterLanguages(status) {
                     pointSeries.data.setAll([]); // Clear current data
-                    loadLanguageData(data => {
-                        const filteredData = data.filter(language => status === 'Default' || language.status === status);
-                        addLanguagePoints(filteredData);
-                    });
+                    const filteredData = languageData.filter(language => status === 'Default' || language.status === status);
+                    addLanguagePoints(filteredData);
                 }
+
+                // Load the data and initialize the map
+                loadLanguageData(() => initializeMap("Default"));
 
                 // Set up events
                 var previousPolygon;
@@ -316,9 +308,6 @@ fetch('language_info.json') // Replace with your actual JSON file path
                 chart.appear(1000, 100);
             }); // end am5.ready()
         </script>
-
-        <!-- HTML -->
-        <div id="chartdiv"></div>
     </div>
 </body>
 </html>
