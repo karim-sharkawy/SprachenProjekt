@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Sprachen</title>
+    <title>Sprachen Karte</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -69,7 +69,6 @@
           display: flex; /* Use inline-flex for better vertical alignment */
           justify-content: center; /* Center text horizontally */
           align-items: center; /* Center text vertically */
-
         }
 
         .status-button:hover {
@@ -127,203 +126,160 @@
             
         </section>
                       
-        <!-- Scripts -->
-        <!-- Load the amCharts library -->
-        <script type="module" src="https://cdn.amcharts.com/lib/5/index.js"></script>
-        <script type="module" src="https://cdn.amcharts.com/lib/5/map.js"></script>
-        <script type="module" src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-        <script type="module" src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-        <!-- Load your map.js script -->
-        <script src="assets/js/map.js"></script>
+        <!-- Styles -->
+        <style>
+            #chartdiv {
+                width: 100%;
+                height: 500px;
+                max-width: 100%;
+            }
+        </style>
 
-    <!-- Resources -->
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    
-    <!-- Chart code -->
-    <script>
-        let languageData = {};
-        let pointSeries;
-        let chart;
-        var root;
+        <!-- Resources -->
+        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+        <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
-        // Define initializeMap before calling it
-        function initializeMap(status) {
+        <!-- Chart code -->
+        <script>
             am5.ready(function() {
-                
-                
                 // Create root element
-                root = am5.Root.new("chartdiv");
-                root.fps = 144;
+                var root = am5.Root.new("chartdiv");
+
                 // Set themes
                 root.setThemes([am5themes_Animated.new(root)]);
 
                 // Create the map chart
                 var chart = root.container.children.push(am5map.MapChart.new(root, {
-                    panX: "translateX",
-                    panY: "translateY",
-                    projection: am5map.geoMercator()
+                    panX: "rotateX",
+                    panY: "rotateY",
+                    projection: am5map.geoOrthographic(),
+                    paddingBottom: 20,
+                    paddingTop: 20,
+                    paddingLeft: 20,
+                    paddingRight: 20,
+                    renderer: am5.CanvasRenderer.new(root) // Use Canvas renderer for performance
                 }));
 
-                // Create polygon series for countries
+                // Create main polygon series for countries
                 var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                    geoJSON: am5geodata_worldLow,
-                    exclude: ["AQ"]
+                    geoJSON: am5geodata_worldLow 
                 }));
-                
-                // Create point series for languages
-                pointSeries = chart.series.push(am5map.MapPointSeries.new(root, {
+
+                polygonSeries.mapPolygons.template.setAll({
+                    tooltipText: "{name}",
+                    toggleKey: "active",
+                    interactive: true
+                });
+
+                polygonSeries.mapPolygons.template.states.create("hover", {
+                    fill: root.interfaceColors.get("primaryButtonHover")
+                });
+
+                polygonSeries.mapPolygons.template.states.create("active", {
+                    fill: root.interfaceColors.get("primaryButtonHover")
+                });
+
+                // Create series for background fill
+                var backgroundSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {}));
+                backgroundSeries.mapPolygons.template.setAll({
+                    fill: root.interfaceColors.get("alternativeBackground"),
+                    fillOpacity: 0.1,
+                    strokeOpacity: 0
+                });
+                backgroundSeries.data.push({
+                    geometry: am5map.getGeoRectangle(90, 180, -90, -180)
+                });
+
+                var graticuleSeries = chart.series.unshift(
+                    am5map.GraticuleSeries.new(root, {
+                        step: 10
+                    })
+                );
+
+                graticuleSeries.mapLines.template.set("strokeOpacity", 0.1);
+
+                var pointSeries = chart.series.push(am5map.MapPointSeries.new(root, {
                     valueField: "value",
-                    categoryField: "category"
+                    clustering: true,
+                    clusterMaxDistance: 40,
+                    clusterMinCount: 2,
+                    calculateAggregates: true,
+                    clusterColorMode: "solid"
                 }));
-                
 
-                pointSeries.data.clear();
-                
-                switch (status) {
-                    case "Stable": //green
-                        pointSeries.bullets.push(function() {
-                            return am5.Bullet.new(root, {
-                                sprite: am5.Circle.new(root, {
-                                    radius: 3,
-                                    fill: am5.color(0x00FF00),
-                                    tooltipText: "{name}\nFamily: {family}\nPopulation: {population}",
-                                    tooltipData: {
-                                        family: "{family}",
-                                        population: "{population}"
-                                    }
-                                })
+                pointSeries.clusters.template.set("tooltipText", "{name}: [bold]{count}[/]");
+                pointSeries.bullets.push(function() {
+                    let circle = am5.Circle.new(root, {
+                        radius: 3,
+                        fill: am5.color(0x000000),
+                        tooltipText: "{name}\nFamily: {family}\nPopulation: {population}"
+                    });
+
+                    return am5.Bullet.new(root, { sprite: circle });
+                });
+
+                // Load JSON data and add points
+                fetch('language_info.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(language => {
+                            pointSeries.data.push({
+                                geometry: {
+                                    type: "Point",
+                                    coordinates: [language.longitude, language.latitude]
+                                },
+                                name: language.name,
+                                family: language.family,
+                                population: language.population
                             });
                         });
-                    break;
-                    case "Endangered": //yellow
-                        pointSeries.bullets.push(function() {
-                            return am5.Bullet.new(root, {
-                                sprite: am5.Circle.new(root, {
-                                    radius: 3,
-                                    fill: am5.color(0xFFFF00),
-                                    tooltipText: "{name}\nFamily: {family}\nPopulation: {population}",
-                                    tooltipData: {
-                                        family: "{family}",
-                                        population: "{population}"
-                                    }
-                                })
-                            });
-                        });
-                        break;
-                    case "Extinct": //red
-                        pointSeries.bullets.push(function() {
-                            return am5.Bullet.new(root, {
-                                sprite: am5.Circle.new(root, {
-                                    radius: 3,
-                                    fill: am5.color(0xFF0000),
-                                    tooltipText: "{name}\nFamily: {family}\nPopulation: {population}",
-                                    tooltipData: {
-                                        family: "{family}"
-                                    }
-                                })
-                            });
-                        });
-                        break;
-                    default: // black
-                        pointSeries.bullets.push(function() {
-                            return am5.Bullet.new(root, {
-                                sprite: am5.Circle.new(root, {
-                                    radius: 3,
-                                    fill: am5.color(0x000000),
-                                    tooltipText: "{name}\nFamily: {family}\nPopulation: {population}",
-                                    tooltipData: {
-                                        family: "{family}",
-                                        population: "{population}"
-                                    }
-                                })
-                            });
-                        });
-                        
-                }
+                    });
 
-                console.log('Map initialized.');
-            });
-        }
+                // Handle clustering click event to zoom in
+                pointSeries.clusters.template.events.on("click", function(ev) {
+                    let cluster = ev.target;
+                    chart.zoomToGeoPoint(cluster.geoPoint, chart.zoomLevel * 2, true);
+                });
 
-        function addPoint(lat, long, name, family, population) {
-            pointSeries.data.push({
-                geometry: {
-                    type: "Point",
-                    coordinates: [parseFloat(lat), parseFloat(long)]
-                },
-                name: name,
-                family: family,
-                population: population
-            });
-        }
+                // Set up events
+                var previousPolygon;
 
-        // on page load
-        // Fetch JSON data
-        fetch('language_info.json') // use full data
-        // fetch('language_info_test.json')  // test data
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            languageData = data;
-            console.log('Loaded JSON data:', languageData);
-            initializeMap("Default");
+                polygonSeries.mapPolygons.template.on("active", function(active, target) {
+                    if (previousPolygon && previousPolygon != target) {
+                        previousPolygon.set("active", false);
+                    }
+                    if (target.get("active")) {
+                        selectCountry(target.dataItem.get("id"));
+                    }
+                    previousPolygon = target;
+                });
 
-            // Add points after map initialization
-            for (const [name, data] of Object.entries(languageData)) {
-                addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-            }
-        })
-        .catch(error => console.error('Error loading JSON:', error));
-
-
-        //on button press
-        function filterLanguages(status) {
-            // Check if root exists and remove it
-            pointSeries.data.clear();
-            root.dispose();
-            console.log(status);
-            // Initialize map with the new status
-            initializeMap(status);
-
-            if (status !== 'Stable' && status !== 'Endangered' && status !== 'Extinct') { //default
-                for (const [name, data] of Object.entries(languageData)) {
-                    addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                }
-            } else if (status === 'Stable') { // stable and institutional
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status || data.language_status === 'Institutional') {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+                function selectCountry(id) {
+                    var dataItem = polygonSeries.getDataItemById(id);
+                    var target = dataItem.get("mapPolygon");
+                    if (target) {
+                        var centroid = target.geoCentroid();
+                        if (centroid) {
+                            chart.animate({ key: "rotationX", to: -centroid.longitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
+                            chart.animate({ key: "rotationY", to: -centroid.latitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
+                        }
                     }
                 }
-            } else {
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status) {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <!-- HTML -->
-    <div id="chartdiv"></div>
-    amCharts
+
+                // Uncomment this to pre-center the globe on a country when it loads
+                //polygonSeries.events.on("datavalidated", function() {
+                //  selectCountry("AU");
+                //});
+
+                // Make stuff animate on load
+                chart.appear(1000, 100);
+            }); // end am5.ready()
+        </script>
+
+        <!-- HTML -->
+        <div id="chartdiv"></div>
     </div>
-
-    <!-- Additional Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
 </body>
 </html>
