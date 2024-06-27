@@ -144,6 +144,13 @@
     
     <!-- Chart code -->
     <script>
+        function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
         let languageData = {};
         let pointSeries;
         let chart;
