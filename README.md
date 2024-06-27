@@ -8,15 +8,3 @@ Motivations:
 + Develope experience parsing larger websites with more sophisticated HTML and multiple variables (including dealing with coordinate variables).
 + Learn frontend and backend development at a basic level.
 + Creating datasets and uutilizing them in the JS code (taking data from Ethnologue and displaying them on the map).
-
-**Ongoing tasks:**
-1. Language Diversity
-  - *Using D3.js, create visualizations of language family trees (families and relationships).*
-  - *Implement interactive elements to explore relationships between languages.*
-  - *Develop charts and graphs (using D3.js) to display metrics like number of speakers and endangerment status.*
-
-2. Linking to Learning Resources
-- *Incorporate links to external learning resources for each language. This could include online courses, textbooks, apps, and websites.*
-- *Create pages or modals that display additional information about each language, including learning resources, history, and usage.*
-- *Links to more information and language learning resources.*
-- *Include search functionality to find specific languages.*
