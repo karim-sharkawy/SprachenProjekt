@@ -158,8 +158,7 @@
                     paddingBottom: 20,
                     paddingTop: 20,
                     paddingLeft: 20,
-                    paddingRight: 20,
-                    renderer: am5.CanvasRenderer.new(root) // Use Canvas renderer for performance
+                    paddingRight: 20
                 }));
 
                 // Create main polygon series for countries
@@ -239,9 +238,45 @@
 
                 // Handle clustering click event to zoom in
                 pointSeries.clusters.template.events.on("click", function(ev) {
-                    let cluster = ev.target;
-                    chart.zoomToGeoPoint(cluster.geoPoint, chart.zoomLevel * 2, true);
+                    const cluster = ev.target.dataItem;
+                    const bbox = cluster.get("boundingBox");
+                    const centroid = bbox ? bbox.centroid : cluster.get("geometry").coordinates;
+
+                    chart.animate({
+                        key: "rotationX",
+                        to: -centroid[0],
+                        duration: 1500,
+                        easing: am5.ease.inOut(am5.ease.cubic)
+                    });
+                    chart.animate({
+                        key: "rotationY",
+                        to: -centroid[1],
+                        duration: 1500,
+                        easing: am5.ease.inOut(am5.ease.cubic)
+                    });
                 });
+
+                // Filter languages by status
+                function filterLanguages(status) {
+                    pointSeries.data.setAll([]); // Clear current data
+
+                    fetch('language_info.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            const filteredData = data.filter(language => status === 'Default' || language.status === status);
+                            filteredData.forEach(language => {
+                                pointSeries.data.push({
+                                    geometry: {
+                                        type: "Point",
+                                        coordinates: [language.longitude, language.latitude]
+                                    },
+                                    name: language.name,
+                                    family: language.family,
+                                    population: language.population
+                                });
+                            });
+                        });
+                }
 
                 // Set up events
                 var previousPolygon;
@@ -262,8 +297,18 @@
                     if (target) {
                         var centroid = target.geoCentroid();
                         if (centroid) {
-                            chart.animate({ key: "rotationX", to: -centroid.longitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
-                            chart.animate({ key: "rotationY", to: -centroid.latitude, duration: 1500, easing: am5.ease.inOut(am5.ease.cubic) });
+                            chart.animate({
+                                key: "rotationX",
+                                to: -centroid.longitude,
+                                duration: 1500,
+                                easing: am5.ease.inOut(am5.ease.cubic)
+                            });
+                            chart.animate({
+                                key: "rotationY",
+                                to: -centroid.latitude,
+                                duration: 1500,
+                                easing: am5.ease.inOut(am5.ease.cubic)
+                            });
                         }
                     }
                 }
