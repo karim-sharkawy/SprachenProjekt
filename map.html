@@ -224,11 +224,26 @@
                 });
 
                 // Function to load JSON data lazily
-                function loadLanguageData(callback) {
-                    fetch('language_info.json')
-                        .then(response => response.json())
-                        .then(data => callback(data));
-                }
+                // Fetch JSON data
+fetch('language_info.json') // Replace with your actual JSON file path
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        languageData = data; // Store fetched data in languageData variable
+        console.log('Loaded JSON data:', languageData);
+
+        initializeMap("Default"); // Initialize map with default status
+
+        // Add points after map initialization
+        for (const [name, data] of Object.entries(languageData)) {
+            addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+        }
+    })
+    .catch(error => console.error('Error loading JSON:', error));
 
                 // Function to add points to the map
                 function addLanguagePoints(data) {
