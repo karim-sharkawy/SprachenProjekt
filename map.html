@@ -77,7 +77,7 @@
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
         }
 
-        .all {
+        .institutional {
             background-image: linear-gradient(to right, white, lightgray)
         }
 
@@ -100,8 +100,9 @@
     <div id="wrapper">
         <nav id="nav" style="position:initial">
           <ul>
-              <li><a href="index.html">Back to Introduction</a></li>
+              <li><a href="index.html">Introduction</a></li>
               <li><a href="map.html">View Map</a></li>
+              <li><a href="information.html">Information</a></li>
           </ul>
         </nav>
     
@@ -116,7 +117,7 @@
             <!-- Map Container -->
 
             <div class="status-buttons">
-              <button class="status-button all" onclick="filterLanguages('Default')">All</button>
+              <button class="status-button institutional" onclick="filterLanguages('Institutional')">Institutional</button>
               <button class="status-button alive" onclick="filterLanguages('Stable')">Alive</button>
               <button class="status-button endangered" onclick="filterLanguages('Endangered')">Endangered</button>
               <button class="status-button extinct"  onclick="filterLanguages('Extinct')">Extinct</button>
@@ -227,7 +228,7 @@
                             });
                         });
                         break;
-                    default: // black
+                    default: // black institutional
                         pointSeries.bullets.push(function() {
                             return am5.Bullet.new(root, {
                                 sprite: am5.Circle.new(root, {
@@ -277,7 +278,8 @@
 
             // Add points after map initialization
             for (const [name, data] of Object.entries(languageData)) {
-                addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
+                if (data.language_status === 'Institutional')
+                    addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
             }
         })
         .catch(error => console.error('Error loading JSON:', error));
@@ -292,30 +294,32 @@
             // Initialize map with the new status
             initializeMap(status);
 
-            if (status !== 'Stable' && status !== 'Endangered' && status !== 'Extinct') { //default
-                for (const [name, data] of Object.entries(languageData)) {
+        
+            for (const [name, data] of Object.entries(languageData)) {
+                if (data.language_status === status) {
                     addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                }
-            } else if (status === 'Stable') { // stable and institutional
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status || data.language_status === 'Institutional') {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                    }
-                }
-            } else {
-                for (const [name, data] of Object.entries(languageData)) {
-                    if (data.language_status === status) {
-                        addPoint(data.coordinates.latitude, data.coordinates.longitude, name, data.family, data.population);
-                    }
                 }
             }
         }
     </script>
+
+    <p>
+        <br>
+        Population refers to the number of native speakers (L1 users). Some languages classified as endangered may have a population count of zero because there are no speakers for whom it is their first language. <br>
+        <br>
+        Language Status (Vitality) indicates the health of a language. Institutional and Stable statuses denote that the language is considered alive, whereas Endangered signifies a precarious state, and Extinct indicates the language is no longer spoken and its associated ethnic identity has been lost. These distinctions are outlined by the Ethnologue website as follows:<br>
+        <br>
+        Institutional: The language is used and supported by institutions beyond the home and local community. <br>
+        Stable: While not supported by formal institutions, the language remains the primary means of communication within the home and community, with all children learning and using it.<br>
+        Endangered: It is no longer the primary language learned and used by children. <br>
+        Extinct: The language is no longer spoken, and its associated ethnic identity is no longer retained. <br>
+
+    </p>
     
     <!-- HTML -->
-    <div id="chartdiv"></div>
+    <!-- <div id="chartdiv"></div>
     amCharts
-    </div>
+    </div> -->
 
     <!-- Additional Scripts -->
     <script src="assets/js/jquery.min.js"></script>
